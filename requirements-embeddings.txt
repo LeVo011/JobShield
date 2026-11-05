@@ -1,0 +1,4 @@
+# Optional semantic retrieval backend; core install uses the TF-IDF vector fallback.
+# This adds Transformers/PyTorch and may require model weights to be cached separately.
+-r requirements.txt
+sentence-transformers>=3.0,<6.0
