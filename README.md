@@ -103,9 +103,7 @@ Open **Knowledge base**, upload PDF/TXT/Markdown up to 10 MB, and choose **Index
 
 Messages are processed locally by default and are not logged or retained by the app; the latest analysis stays in Streamlit session state until the session ends. Uploaded knowledge documents are intentionally stored locally until deleted. Deletion removes the source document and rebuilds the index from remaining files, starters, and their current contents. If an optional external LLM is enabled, the full message and findings are sent to its configured endpoint. No real-time domain checks, company contact, government-database lookup, or identity verification occurs. False positives and false negatives are possible; do not rely on scores for legal, financial, or employment certainty. For suspected cybercrime in India, see https://cybercrime.gov.in/.
 
-## Screenshots
 
-Capture screenshots from the running application and add them here:
 
 - `[Analyze dashboard screenshot placeholder]`
 - `[Knowledge base screenshot placeholder]`
